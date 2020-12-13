@@ -1,7 +1,0 @@
-Id,Parent,Name,Type,Context,Side,Polarity,Next,
-1,job-sample,sm-top,solder mask,board,top,,top
-2,job-sample,top,signal,board,top,positive,in1
-3,job-sample,in1,signal,board,inner,positive,in2
-4,job-sample,in2,signal,board,inner,positive,bot
-5,job-sample,bot,signal,board,bottom,positive,sm-bot
-6,job-sample,sm-bot,solder mask,board,bottom,,
