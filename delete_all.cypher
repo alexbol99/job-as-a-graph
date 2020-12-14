@@ -8,4 +8,8 @@ MATCH (l:LayerDefinition) DETACH DELETE l RETURN count(l)
 
 MATCH (l:Layer) DETACH DELETE l RETURN count(l)
 
+MATCH (f:Feature) DETACH DELETE f RETURN count(f)
+
+MATCH (g:Geometry) DETACH DELETE g RETURN count(g)
+
 MATCH (n) DETACH DELETE n RETURN count(n)
